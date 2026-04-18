@@ -1,13 +1,5 @@
 # Submission Abstract — Semantic Link: Time Machine
 
-## Short version (for the Notebook Gallery "short abstract" field)
-
-**Semantic Link – Time Machine** gives Power BI semantic models a `git log`. Capture structured snapshots of a model's definition *and* its measure values over time, diff any two points in history to see exactly what changed, use automated binary-search bisect to find the precise snapshot where a measure's value flipped — along with a ranked root-cause explanation of which model change caused it — and visualize any tracked measure's full value history with automatic drift markers. Built on `semantic-link` and `semantic-link-labs`, with snapshot storage in Fabric-native Delta tables. Adopt in any workspace by editing one configuration cell.
-
----
-
-## Long version (for the notebook header and challenge thread)
-
 ### The problem
 
 Semantic models evolve constantly — measures get tweaked, relationships change, columns are renamed, calculated columns get refactored. When a KPI silently starts returning the wrong number, developers have almost no tools to answer the most basic questions:
