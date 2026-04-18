@@ -25,8 +25,8 @@ Time Machine treats semantic models like source code with a proper history. Five
             ▼
      capture_snapshot()
             │
-  ┌─────────┼──────────────┐
-  ▼         ▼              ▼
+  ┌─────────────┼──────────────┐
+  ▼             ▼              ▼
 tm_snapshots  tm_measure   tm_measure
 (Delta)       _definitions  _values
               (Delta)       (Delta)
